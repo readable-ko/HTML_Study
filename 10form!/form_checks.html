@@ -1,0 +1,40 @@
+여러개 중 하나만 선택하는 체크 박스를 input type radio 라고한다
+여러 항목 중에 다중 선택이 되는것을 input type checkbox라고 한다
+name을 통해 radio 그룹을 알 수 있다. </br>
+
+<div>
+<form action ="" method="GET">
+<input type ="radio" name = "subs" value = "On" id = "subscribed"/>
+<label for ="subscribed">구독 중</label>
+
+<input type ="radio" name = "subs" value = "Off" id = "unsubscribed"/>
+<label for ="unsubscribed">미구독</label>
+
+<button type ="submit">Submit</button>
+<hr/>
+
+<input type ="radio" name = "ppap" value = "1" id = "apple"/>
+<label for ="apple">사과</label>
+
+<input type ="radio" name = "ppap" value = "0" id = "pineapple"/>
+<label for ="pineapple">파인애플</label>
+
+</form>
+</div>
+
+<h1>
+    사용 가능 언어
+</h1>
+value는 어떤 것들이 선택되었는지 보내주기 위함이지 암.
+<form action = "" method="GET">
+    <input type = "checkbox" name = "skills" value = "h" id = html/>
+    <label for = "html">HTML</label>
+    <input type = "checkbox" name = "skills" value = "c" id = css/>
+    <label for = "css">CSS</label>
+    <input type = "checkbox" name = "skills" value = "js" id = js/>
+    <label for = "js">JavaScript</label>
+
+    <button type = "submit">
+        Submit
+    </button>
+</form>
